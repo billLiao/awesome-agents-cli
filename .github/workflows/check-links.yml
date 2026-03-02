@@ -1,0 +1,29 @@
+name: Check Links
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  schedule:
+    - cron: '0 9 * * 1'  # Every Monday at 09:00 UTC
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Check links
+        uses: gaurav-nelson/github-action-markdown-link-check@v1
+        with:
+          use-quiet-mode: yes
+          use-verbose-mode: yes
+          config-file: '.mlc_config.json'
+        if: ${{ github.event_name == 'schedule' }}
+        
+      - name: Check links (quick)
+        uses: gaurav-nelson/github-action-markdown-link-check@v1
+        with:
+          use-quiet-mode: yes
+        if: ${{ github.event_name != 'schedule' }}
