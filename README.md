@@ -175,12 +175,6 @@ pip install open-interpreter
 interpreter
 ```
 
-### [Devika](https://github.com/stitionai/devika) 🎯
-Autonomous AI software engineer for solving high-level tasks.
-```bash
-git clone https://github.com/stitionai/devika
-cd devika && pip install -r requirements.txt
-```
 
 ### [Codium](https://www.codium.ai/) 🧪
 AI-powered code testing and analysis CLI.
