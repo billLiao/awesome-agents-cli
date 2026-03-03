@@ -95,6 +95,15 @@ npm install -g @google/gemini-cli
 gemini --help
 ```
 
+
+### [Qwen Code](https://github.com/QwenLM/qwen-code) 🇨🇳
+Alibaba's Qwen open-source AI agent. CLI tool for code generation, editing, and automation powered by Qwen models.
+
+```bash
+# Install via pip
+pip install qwen-code
+qwen-code --help
+```
 ---
 
 ## AI Chat & Conversation
