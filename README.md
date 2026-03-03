@@ -50,6 +50,51 @@ npm install -g @codeium/cli
 codeium login
 ```
 
+### [GPT-Engineer](https://github.com/AntonOsika/gpt-engineer) ⭐
+CLI platform to experiment with codegen. Specify what you want to build, and GPT-Engineer will generate the entire codebase.
+```bash
+pip install gpt-engineer
+gpt-engineer "build a todo app"
+```
+
+### [MetaGPT](https://github.com/FoundationAgents/MetaGPT) 🔥
+The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming. MetaGPT takes a one-line requirement as input and outputs user stories/analysis/tasks/etc.
+```bash
+pip install metagpt
+metagpt "build a cli todo app"
+```
+
+### [Devika](https://github.com/stitionai/devika) 🎯
+Devika is an open-source implementation of an Agentic Software Engineer. It can understand high-level instructions, break them down into steps, and execute complex software development tasks autonomously.
+```bash
+git clone https://github.com/stitionai/devika
+cd devika && pip install -r requirements.txt
+```
+
+### [Claude Code](https://claude.ai/code) 💻
+Anthropic's official CLI for AI coding. Write, edit, and debug code with Claude 3.5 Sonnet. Supports context-aware code generation, file operations, and terminal commands.
+```bash
+# Install via npm
+npm install -g @anthropic-ai/claude-code
+claude --version
+```
+
+### [OpenCode](https://github.com/anthropics/opencode) 🔓
+Open-source CLI coding assistant by Anthropic. The open-source alternative to Claude Code with similar capabilities.
+```bash
+# Install via npm
+npm install -g opencode
+opencode --help
+```
+
+### [Gemini CLI](https://github.com/google-gemini/gemini-cli) 🌟
+Google's official CLI powered by Gemini models. Multi-modal AI assistant for coding, debugging, and terminal automation.
+```bash
+# Install via npm
+npm install -g @google/gemini-cli
+gemini --help
+```
+
 ---
 
 ## AI Chat & Conversation
@@ -88,6 +133,21 @@ git clone https://github.com/mckaywrigley/chatbot-ui
 npm install && npm run dev
 ```
 
+### [aichat](https://github.com/sigoden/aichat) 🛠️
+All-in-one LLM CLI tool featuring Shell Assistant, Chat-REPL, RAG, AI Tools & Agents, with access to OpenAI, Claude, Gemini, Ollama, Groq, and more.
+```bash
+# Install via cargo
+cargo install aichat
+# Or download from releases
+```
+
+### [llm](https://github.com/simonw/llm) 📦
+Access large language models from the command-line. Supports multiple providers including OpenAI, Anthropic, and local models.
+```bash
+pip install llm
+llm --model gpt-4 "Hello world"
+```
+
 ---
 
 ## Task Automation
@@ -97,13 +157,6 @@ Lightweight AI agent for task automation with skills system.
 ```bash
 pip install nanobot-ai
 nanobot
-```
-
-### [Claude Code](https://claude.ai/code) 💻
-Anthropic's CLI tool for code tasks with Claude AI.
-```bash
-npm install -g @anthropic-ai/claude-code
-claude-code "help me write a function"
 ```
 
 ### [Open Interpreter](https://github.com/KillianLucas/open-interpreter) 🔓
@@ -125,6 +178,20 @@ AI-powered code testing and analysis CLI.
 ```bash
 npm install -g @codium-ai/cli
 codium analyze
+```
+
+### [AgentGPT](https://github.com/reworkd/AgentGPT) 🤖
+Assemble, configure, and deploy autonomous AI Agents in your browser. CLI-ready for automated task execution.
+```bash
+# Available as web app or self-hosted
+docker run -d -p 8080:8080 reworkd/agentgpt
+```
+
+### [GPT-Researcher](https://github.com/assafelovic/gpt-researcher) 📚
+An autonomous agent that conducts deep research on any data using any LLM providers. Perfect for comprehensive research tasks.
+```bash
+pip install gpt-researcher
+gpt-researcher "research topic"
 ```
 
 ---
@@ -164,6 +231,26 @@ AI that runs your shell commands.
 ```bash
 npm install -g @ai-shell/cli
 ai "show me git status"
+```
+
+### [DocsGPT](https://github.com/arc53/docsgpt) 📖
+Private AI platform for agents, assistants and enterprise search. Built-in Agent Builder, Deep research, Document analysis, Multi-model support.
+```bash
+docker run -d -p 5001:5001 arc53/docsgpt
+```
+
+### [screenshot-to-code](https://github.com/abi/screenshot-to-code) 🖼️
+Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue). Great for rapid prototyping.
+```bash
+git clone https://github.com/abi/screenshot-to-code
+cd screenshot-to-code && pip install -r requirements.txt
+```
+
+### [gpt-repository-loader](https://github.com/mpoon/gpt-repository-loader) 📂
+Convert code repos into an LLM prompt-friendly format. Useful for feeding codebases to AI assistants.
+```bash
+pip install gpt-repository-loader
+gpt-repository-loader ./my-project > prompt.txt
 ```
 
 ---
@@ -230,6 +317,12 @@ dotnet add package Microsoft.SemanticKernel
 Microsoft's multi-agent conversation framework.
 ```bash
 pip install pyautogen
+```
+
+### [crewAI](https://github.com/crewAIInc/crewAI) 👥
+Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.
+```bash
+pip install crewai
 ```
 
 ---
