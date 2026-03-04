@@ -97,7 +97,7 @@ gemini --help
 
 
 ### [Qwen Code](https://github.com/QwenLM/qwen-code) 🇨🇳
-Alibaba's Qwen open-source AI agent. CLI tool for code generation, editing, and automation powered by Qwen models.
+### [Qwen Code](https://github.com/QwenLM/qwen-code) 🇨🇳 Alibaba's Qwen open-source AI agent. CLI tool for code generation, editing, and automation powered by Qwen models.
 
 ```bash
 # Install via pip
@@ -105,6 +105,13 @@ pip install qwen-code
 qwen-code --help
 ```
 ---
+### [Forge](https://github.com/antinomyhq/forge) ⭐ AI-enabled pair programmer for Claude, GPT, O Series, Grok, Deepseek, Gemini and 300+ models. Cross-platform CLI tool with support for multiple AI providers.
+```bash
+# Install via pip
+pip install forge-ai
+forge --help
+```
+
 
 ## AI Chat & Conversation
 
@@ -157,6 +164,14 @@ pip install llm
 llm --model gpt-4 "Hello world"
 ```
 
+### [zchat](https://github.com/nicolodiamante/zchat) 🐚 Zsh terminal ChatGPT integration. A lightweight CLI tool for interacting with ChatGPT directly from your Zsh terminal.
+```bash
+# Install via brew
+brew install zchat
+# Or clone from source
+git clone https://github.com/nicolodiamante/zchat
+cd zchat && make install
+```
 ---
 
 ## Task Automation
