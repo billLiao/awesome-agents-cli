@@ -65,6 +65,26 @@ metagpt "build a cli todo app"
 ```
 
 ### [Devika](https://github.com/stitionai/devika) 🎯
+### [smol-developer](https://github.com/smol-ai/developer) ⭐ Your own personal junior developer. A library and CLI tool that scaffolds entire codebases from product specs, with support for iterative development and debugging.
+```bash
+# Install
+git clone https://github.com/smol-ai/developer.git
+cd developer
+poetry install
+
+# Run
+python main.py "a HTML/JS/CSS Tic Tac Toe Game"
+```
+### [pi-mono](https://github.com/badlogic/pi-mono) ⭐ AI agent toolkit with coding agent CLI, unified LLM API, TUI & web UI libraries. A comprehensive toolkit for building and deploying AI agents.
+```bash
+# Install
+npm install
+npm run build
+
+# Run the coding agent
+./pi-test.sh
+```
+
 Devika is an open-source implementation of an Agentic Software Engineer. It can understand high-level instructions, break them down into steps, and execute complex software development tasks autonomously.
 ```bash
 git clone https://github.com/stitionai/devika
