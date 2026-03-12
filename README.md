@@ -99,6 +99,13 @@ npm install -g @anthropic-ai/claude-code
 claude --version
 ```
 
+### [mcp2cli](https://github.com/knowsuchagency/mcp2cli) ⭐ Convert MCP servers or OpenAPI specs to CLI tools. Zero code generation at runtime, saving 96-99% tokens. Solve LLM tool schema bloat when connecting to multiple MCP servers. Supports OAuth, environment variable authentication, 1-hour caching, and TOON output format.
+```bash
+# Install via pip
+pip install mcp2cli
+mcp2cli --help
+```
+
 ### [OpenCode](https://github.com/anthropics/opencode) 🔓
 Open-source CLI coding assistant by Anthropic. The open-source alternative to Claude Code with similar capabilities.
 ```bash

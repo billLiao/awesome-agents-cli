@@ -44,6 +44,8 @@ interpreter
 - **Cursor** - AI 优先的代码编辑器
 - **Continue** - 开源 AI 代码助手
 - **Codeium** - 免费 AI 代码补全
+- **mcp2cli** - 将 MCP 服务器转换为 CLI 工具，可节省 96-99% tokens
+- **Claude Code** - Anthropic 官方 CLI 编程助手
 
 ### 💬 AI 聊天与对话
 - **Ollama** - 本地运行 LLM（推荐）
